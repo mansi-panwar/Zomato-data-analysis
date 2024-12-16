@@ -1,16 +1,4 @@
-# Zomato Restaurant Data Analysis and Recommendation System 🔥
-
-<p align="center">
-
-  [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
-  
-  ![GitHub stars](https://img.shields.io/github/stars/chiragsamal/Zomato)
-  ![GitHub forks](https://img.shields.io/github/forks/chiragsamal/Zomato)
-  [![GitHub contributors](https://img.shields.io/github/contributors/chiragsamal/Zomato.svg)](https://GitHub.com/chiragsamal/Zomato/graphs/contributors/)
-  [![GitHub license](https://img.shields.io/github/license/chiragsamal/Zomato.svg)](https://github.com/chiragsamal/Zomato/blob/master/LICENSE)
-  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-  [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
-</p>  
+# Zomato Restaurant Data Analysis and Recommendation System 
 
 ![Zomato](https://github.com/chiragsamal/Zomato/blob/master/Images/zomato.jpg)
 
@@ -24,7 +12,7 @@ The basic idea of analyzing the Zomato dataset is to get a fair idea about the f
 
 The data is accurate to that available on the zomato website until 15 March 2019. The data was scraped from Zomato in two phase. After going through the structure of the website I found that for each neighborhood there are 6-7 category of restaurants viz. Buffet, Cafes, Delivery, Desserts, Dine-out, Drinks & nightlife, Pubs and bars.
 
-## Methodology 🛠️
+## Methodology 
 ### Phase I,
 
 In Phase I of extraction only the URL, name and address of the restaurant were extracted which were visible on the front page. The URl's for each of the restaurants on the zomato were recorded in the csv file so that later the data can be extracted individually for each restaurant. This made the extraction process easier and reduced the extra load on my machine. The data for each neighborhood and each category can be found here
@@ -40,20 +28,15 @@ In Phase III, Sentiment Analysis of Reviews of the dataset to identify the feeli
 The rapid growth of data collection has led to a new era of information. Data is being used to create more efficient systems and this is where Recommendation Systems come into play. Recommendation Systems are a type of information filtering systems as they improve the quality of search results and provides items that are more relevant to the search item or are realted to the search history of the user. They are active information filtering systems which personalize the information coming to a user based on his interests, relevance of the information etc. Recommender systems are used widely for recommending movies, articles, restaurants, places to visit, items to buy etc. Here I will be using Content Based Filtering
 Content-Based Filtering: This method uses only information about the description and attributes of the items users has previously consumed to model user's preferences. In other words, these algorithms try to recommend items that are similar to those that a user liked in the past (or is examining in the present). In particular, various candidate items are compared with items previously rated by the user and the best-matching items are recommended.
 
-## Inspiration
-I was always astonished by how each of the restaurants are able to keep up the pace inspite of that cutting edge competition. And what factors should be kept in mind if someone wants to open new restaurant. Does the demography of an area matters? Does location of a particular type of restaurant also depends on the people living in that area? Does the theme of the restaurant matters? Is a food chain category restaurant likely to have more customers than its counter part? Are any neighborhood similar ? If two neighborhood are similar does that mean these are related or particular group of people live in the neighborhood or these are the places to it? What kind of a food is more popular in a locality. Do the entire locality loves vegetarian food. If yes then is that locality populated by a particular sect of people for eg. Jain, Marwaris, Gujaratis who are mostly vegetarian. There are infacts dozens of question in my mind. lets try to find out the answer with this dataset.
 
-You can download the dataset here: [Zomato Bangalore Restaurants](https://www.kaggle.com/himanshupoddar/zomato-bangalore-restaurants/download)
-
-## Sections 📚
+## Sections 
 ✔️ Exploratory Data Analysis\
 ✔️ Visualization \
 ✔️ Rate Prediction\
 ✔️ Sentiment Analysis of Reviews\
 ✔️ Recommendation System\
 
-## License 📄
-This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
+
 
 ## Contributing 💡
 If you can help us with these. Please don't hesitate to open an [pull request](https://github.com/chiragsamal/Zomato/pulls) or [issue](https://github.com/chiragsamal/issue/issues).
